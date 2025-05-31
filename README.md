@@ -1,26 +1,25 @@
-# 📝 ATS Resume Analyzer
+# ATS Resume Analyzer
 
-This project analyzes resumes and provides their ATS (Applicant Tracking System) score by comparing the resume content against a given job description. It helps job seekers optimize their resumes to better match job postings.
+A simple tool that helps you see how well your resume matches a job description — basically your ATS score. It’s built to help job seekers tailor their resumes to get past applicant tracking systems.
 
-## 🚀 Features
+## Features
 
-- Upload and parse resumes (PDF/DOCX)
-- Input job descriptions
-- Calculate ATS match score based on keyword relevance
-- Highlight missing or relevant skills
-- Simple and intuitive UI (React)
-- LLM-powered backend (Claude-3-Sonnet via OpenRouter)
+- Upload your resume (PDF or DOCX)
+- Paste in a job description
+- Get a match score based on key skills and keywords
+- Highlights what’s missing and what matches well
+- Clean, easy-to-use interface
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React.js
-- Tailwind CSS (optional)
+- Tailwind CSS
 - Axios
 
 **Backend:**
 - Node.js + Express
-- Claude 3 Sonnet (via OpenRouter API)
-- Multer for file uploads
+- Claude-3 Sonnet via OpenRouter API
+- Multer (for file uploads)
 
 
